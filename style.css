@@ -1,0 +1,145 @@
+*{box-sizing:border-box;margin:0;padding:0;}
+
+.title{
+  text-align: center;
+  border-style: dotted;
+  width: 20%;
+  margin: 0 auto;
+  padding: 1px 1px 1px 1px;
+  margin-bottom: 20px;
+
+}
+
+.player-container iframe{
+  margin: 0 auto;
+  display: block;
+  border: double;
+}
+
+.cronometro{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align:center;
+}
+
+.boton{
+  display: inline-block;
+  width:42px;
+  height:42px;
+  position:relative;
+  border: none;
+  border-radius: 13px;
+  box-shadow: 0 9px #999;
+}
+
+.boton:active{
+  background-color: wheat;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.boton:hover{
+  background-color: wheat;
+  cursor: pointer;
+}
+
+.timer{
+  width: 100px;
+  height: 100px;
+  color:#000;
+  font-family: alarm;
+  background-clip: content-box;
+  border:dashed;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  animation: spin 10s linear infinite;
+}
+
+.hms{
+  display: relative;
+  margin-top: -75px;
+  margin-left: 2px;
+  font-size: 50px;
+}
+
+@keyframes spin { 
+  100% { 
+    transform: rotateZ(360deg);
+  }
+}
+
+.link-wrapper{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.input{
+  width: 250px;
+  height: 27px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button {
+  border: none;
+  color: white;
+  background-color: black;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.tiempo{
+  background: url(./assets/60-segundos.png) center/90% no-repeat;
+  background-color: rgb(238, 231, 217);
+  background-position: center;
+}
+
+.start{
+  background:url(./assets/recursosEnunciado/start.png) 0 0 no-repeat;
+  background-color: rgb(238, 231, 217);
+  background-position: center;
+}
+
+.stop{
+  background:url(./assets/recursosEnunciado/pause.png) 0 0 no-repeat;
+  background-color: rgb(238, 231, 217);
+  background-position: center;
+}
+
+.reiniciar{
+  background:url(./assets/recursosEnunciado/delete.png)0 0 no-repeat;
+  background-color: rgb(238, 231, 217);
+  background-position: center;
+}
+
+
+@media only screen and (max-width: 700px){
+  
+  .hms{
+    margin-top: -80px;
+  }
+
+  #player{
+    width: 90%;
+    height: 200px;
+  }
+
+  .input{
+    width: 100%;
+  }
+
+  .title{
+    width: 80%;
+  }
+}
