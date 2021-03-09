@@ -8,7 +8,7 @@
 
 ### Proximas features:
 <p>- Mejor control de los tiempos del cronometro</p>
-<p>- Poder seleccionar distintos formatos de freestyle (palabras random cada un cierto tiempo, tematicas, terminaciones, entre otros)</p>
+<p>- Poder seleccionar distintos formatos de freestyle (palabras random cada un cierto tiempo, tematicas, terminaciones, contesta la pregunta, situaciones, entre otros)</p>
 <p>- Sistema de login para poder guardar datos de usuario en una cuenta</p>
 <p>- Posiblidad de guardar links de beats en nuestra cuenta</p>
 <p>-Poder crear un patron de formatos (por ejemplo, palabras cada 10s, luego tematicas, luego 60s libre)</p>
